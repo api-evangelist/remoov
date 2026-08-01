@@ -1,7 +1,25 @@
 aid: remoov
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remoov.png
 name: Remoov
-description: Remoov is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Remoov is a San Francisco-based full-service removal, resale, donation, and recycling company
+  that helps households and businesses declutter by picking up unwanted furniture and goods,
+  then reselling them on consignment (via reperch.com), donating them to charities, or recycling
+  them responsibly. Customers schedule a pickup, receive a quote, and earn a share of resale
+  proceeds. Remoov also serves realtors, stagers, property managers, and living communities as
+  partners. Backed by 500 Global. This profile was added to the API Evangelist network as a
+  portfolio lead; Remoov publishes a consumer web app and help desk but no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/remoov/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Junk Removal
+- Furniture Resale
+- Consignment
+- Recycling
+- Donation
+- Home Services
+- Decluttering
+- Moving
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://remoovit.com
+- type: Blog
+  url: https://blog.remoovit.com/
+- type: Pricing
+  url: https://remoovit.com/pricing
+- type: Support
+  url: https://help.remoovit.com/support/home
+- type: SignUp
+  url: https://remoovit.com/your-quote
+- type: Login
+  url: https://remoovit.com/sign-in
+- type: TermsOfService
+  url: https://remoovit.com/terms
+- type: PrivacyPolicy
+  url: https://remoovit.com/privacy
+- type: DomainSecurity
+  url: security/remoov-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
